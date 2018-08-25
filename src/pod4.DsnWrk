@@ -1,0 +1,18 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=MultiBoard_Project1.PrjMbd
+[Project2]
+ProjectPath=Sample.PrjPCB
+[Project3]
+ProjectPath=..\..\..\..\Desktop\AltiumDesigner\UL_Import.PrjScr
+[Project4]
+ProjectPath=..\..\..\..\Desktop\exports (1)\AltiumDesigner\UL_Import.PrjScr
+[Project5]
+ProjectPath=..\..\..\..\Desktop\AltiumDesigner\AltiumDesigner.LibPkg
+[Project6]
+ProjectPath=..\..\..\..\Desktop\exports (2)\AltiumDesigner\UL_Import.PrjScr
+[Project7]
+ProjectPath=.LibPkg
+[Project8]
+ProjectPath=..\..\..\..\Desktop\exports (2)\AltiumDesigner\AltiumDesigner.LibPkg
