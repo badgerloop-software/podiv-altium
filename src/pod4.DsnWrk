@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=processor.PrjPCB
+[Project2]
+ProjectPath=nav_io.PrjPCB
