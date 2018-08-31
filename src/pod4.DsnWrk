@@ -1,6 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=MultiBoard_Project1.PrjMbd
+ProjectPath=processor.PrjPCB
 [Project2]
-ProjectPath=Sample.PrjPCB
+ProjectPath=nav_io.PrjPCB

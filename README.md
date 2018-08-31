@@ -28,3 +28,9 @@ Altium repository for podiv.
 10. You are now ready to use Altium. See [Training](#training) for more details on how to get started. 
 
 ## Training
+
+## General Tips
++ Do not try to use Altium's built in check-out/commit tools. Instead, use Git from the terminal to perform git operations. This prevents a lot of conflicts. Learning how to use the command line is a really good thing to learn how to do as it's used in industry all over.
++ To save, CTRL + S does not work all of the time. Instead, right click on the file you want to save and hit "save". Also, note that if a schematic document is edited, saving the entire project will only save the project structure, not the actual schematic file you have changed. 
++ Multiple libraries are used in part to reduce the number of conflicts between branches. It's important that you are regularly commiting and pushing your changes when multilpe users are working. Conflicts are possible to solve, but are somewhat challenging to do so. 
++ Note that multilpe projects can reference the same libraries. Be careful if you are editing a component that has already been placed in another project, as even minor changes like pad size can have major unintended results. 
