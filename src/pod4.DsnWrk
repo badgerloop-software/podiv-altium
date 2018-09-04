@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=prj\processor_project.PrjPCB
 [Project2]
 ProjectPath=prj\nav_io_project.PrjPCB
+[Project3]
+ProjectPath=prj\precharge_project.PrjPCB
