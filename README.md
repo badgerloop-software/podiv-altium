@@ -17,8 +17,8 @@ Altium only works on Windows. See  [Altium System Requirements](https://www.alti
    + git clone https://github.com/badgerloop-software/podiv-altium.git
    + git checkout -b <your-username_training>
    + Open Altium and sign in. You are now on a training branch that you will complete your first getting started project on if you are new to Altium. 
-7. Go to DXP -> My Account
-8. Click Use to claim a license. If you are not using a valid license, you will be able to view files in Altium Designer but you will not be able to make edits.
+7. Go to User Silhouette (Top Right Corner) -> License Management. Then Click Sign In and enter your username and password associated with Altium Live and accept the warning. It's also a good idea to check Sign me in when I start Altium Designer if you'd like to save a little time.
+8. Click Use to claim a license. If you are not using a valid license, you will be able to view files in Altium Designer but you will not be able to make edits. Ensure that you are choosing an Altium Designer License and not our PDN License. That's something else. 
 9. Go to Setting -> Data Management -> Design Reposotories and enter the following information:
    + Name: pod4
    + Default Checkout Path C:\Users\ < your username >\Documents\git_repos\podiv-altium
