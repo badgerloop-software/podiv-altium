@@ -1,4 +1,4 @@
-# Point of Load (POL) Power
+# Point of Load (POL) Power Supplies
 ## Getting Started
 1. Watch the introductory [video](https://www.youtube.com/watch?v=o5OQcIHKOF0)
 2. Download [Altium](www.altium.com) if you haven't already done so
