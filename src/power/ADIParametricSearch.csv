@@ -1,0 +1,15 @@
+﻿Part #,My Comments,Number of Outputs,Vin (min),Vin (max),Output Current (typ),Switch Current (typ),Monolithic,Isupply (typ),Topology,Price (1000+),Package,Vout Max (typ),Vout Min (typ)
+,,,(V),(V),(A),(A),,(A),,($ US),,(V),(V)
+LT8642S,Good Option,1,2.8,18,10,18,Yes,230µ,Buck,$4.15 (LT8642SEV#PBF),24 ld LQFN (4x4x0.94mm w/EP  (See Drawing)),17.82,597m
+LT8646S,Wide range that's unnecessary for us.,1,3.4,65,8,14,Yes,17µ,Buck,$5.95 (LT8646SEV#PBF),32 ld LQFN (6x4x0.94mm w/EP  (See Drawing)),64,970m
+LT8643S,"Good Option, still a wide input voltage range",1,3.4,42,6,10,Yes,21µ,Buck,$4.65 (LT8643SEV#PBF),24 ld LQFN (4x4x0.94mm w/EP  (See Drawing)),41.58,970m
+LT8640S,"Good Option, still a wide input voltage range",1,3.4,42,6,10,Yes,1.7µ,Buck,$4.65 (LT8640SEV#PBF),24 ld LQFN (4x4x0.94mm w/EP  (See Drawing)),41.58,970m
+LT8645S,Wide range that's unnecessary for us.,1,3.4,65,8,14,Yes,1.7µ,Buck,$5.95 (LT8645SEV#PBF),32 ld LQFN (6x4x0.94mm w/EP  (See Drawing)),64.35,970m
+LTC3623,Low max vin,1,4,15,5,6.2,Yes,1.45m,Buck,$3.95 (LTC3623EUDD#PBF),24 LD QFN (3x5x0.75 w/1.65x3.65mm EP),14.5,0
+LT3976,"Good Option, wide Vin range",1,4.3,40,5,10,Yes,1.6µ,Buck,$3.75 (LT3976EMSE#PBF),"16 ld MSOP_EP (see Drawing),24 LD QFN (3x5x0.75 w/1.65x3.65mm EP)",38.8,1.197
+LTC3605A,Good option,1,4,20,5,6,Yes,1.5m,Buck,$4.25 (LTC3605AEUF#PBF),24 LD QFN (4x4x0.75 w/2.45mm EP),19.8,600m
+ADP2325,No need for dual outputs,2,4.5,20,5,,Yes,5m,Buck,$2.71 (ADP2325ACPZ-R7),32 ld LFCSP (5x5mm) w/3.1mm exposed pad,16,600m
+ADP2381,Not familiar with this topology,1,4.5,20,6,9.6,Yes,35m,"Buck, Inverting",$1.68 (ADP2381AREZ-R7),TSSOP W/ THERMAL PAD,18,600m
+LTC3613,DCR Sensing is tricky to get right on a board like this,1,4.5,24,15,25,Yes,2m,Buck,$9.75 (LTC3613EWKH#PBF),56 LD QFN (7x7x0.75mm w/EP (see drawing)),5.5,600m
+LTC3605,Minimum Vin kinda low. Possibly an issue with fully charged batteries,1,4,15,5,6,Yes,2m,Buck,$4.25 (LTC3605EUF#PBF),24 LD QFN (4x4x0.75 w/2.45mm EP),14.85,600m
+ADP1111,Not familiar with this topology,1,2,30,,1.5,Yes,500µ,"Boost, Buck",$2.32 (ADP1111ARZ),"8 ld PDIP,8 ld SOIC",45,1.25
