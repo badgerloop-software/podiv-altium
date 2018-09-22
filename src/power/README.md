@@ -31,3 +31,25 @@ Be sure to account for all of these losses! Nominal capacitance doesn't really m
    * Example: 90% (temp losses)* 95% (Operating frequency) * 60% (DC Bias) * 80% (Manufacturing tolerance) = 41% of the datasheet capacitance value. That's like expecting 4.7uF and getting 2uF.
 * Frequency Response simulations like those provided with LTPowerCAD can vary greatly if you put the incorrect inputs in for values like ESR and ESL. 
 * Separate tantalum and ceramic capacitors for bulk and ceramic in PowerCAD. ESR is very different between the two and does not add like regular parallel resistance. 
+
+## Testing Power Supplies
+
+There are a number of design verification tests and measurements that should be performed for switch-mode-power-supplies or LDOs to ensure their operation in corner cases and over the lifetime of the product. This document will be updated with sample scope captures. 
+
+Note that it is good practice to perform each test at min/max/nominal load cases, min/max/nominal input voltage, (min/max/nominal temperature is nice too but not required for our application)
+
+### Steady-State Output Voltage Ripple
+Measuring the peak-to-peak ripple current (on the order of 5mV/div on a scope). Looking for ESL spikes on the output as well. 
+### Transient Response
+How does a supply respond to a (near) instantaneous load. When current is drawn from the supply, the output voltage should drop, and then recover to the original output voltage minus load line losses. When the load is removed, the opposite should occur. You should be looking for a "critically damped", or single half-wave sinusoid, response as "ringing", or a fully sinusoidal wave with decreasing amplitude, indicates an unstable supply.
+#### Testing Transient Response
+Testing a transient response can be done in a number of ways. The most basic version is to manually connect and disconnect a power resistor to the output. 
+
+Alternatively, more advanced forms of this test involve a device like an Intel [mini-slammer](https://designintools.intel.com/25A_Mini_Slammer_p/q6uj9a00ms25.htm_) or similar programmable load. Basically, you apply a waveform to the mini-slammer, which alters the effective load resistnace on the supply. This is an effective way to power on and power off a load at a regular frequency. Operation of a mini-slammer also requires an [Analog Discovery](https://store.digilentinc.com/analog-discovery-2-100msps-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) or other wavegenerator and a mini-slammer [control board](https://designintools.intel.com/Mini_Slammer_Control_Board_p/q6uj9a00mscb.htm_)
+
+Your oscilloscope should be set to NORMAL mode and trigger on your current-corresponding waveform. Scope captures should include Vin, Vout and load current. 
+#### What do we get out of testing transient response? 
+Testing the transient response of a supply gets you the following:
+1. Evaluates stability of the supply (ringing present)
+2. Measuring the deviation in output voltage from the norm. Some processors and FPGAs have 5% or even 3% output voltage tolerances.
+3. Confidence that your supply will work when loads power on, relays engage, or there is some change in load.
