@@ -40,6 +40,7 @@ Note that it is good practice to perform each test at min/max/nominal load cases
 
 ### Steady-State Output Voltage Ripple
 Measuring the peak-to-peak ripple current (on the order of 5mV/div on a scope). Looking for ESL spikes on the output as well. 
+
 ### Transient Response
 How does a supply respond to a (near) instantaneous load. When current is drawn from the supply, the output voltage should drop, and then recover to the original output voltage minus load line losses. When the load is removed, the opposite should occur. You should be looking for a "critically damped", or single half-wave sinusoid, response as "ringing", or a fully sinusoidal wave with decreasing amplitude, indicates an unstable supply.
 #### Testing Transient Response
@@ -53,3 +54,47 @@ Testing the transient response of a supply gets you the following:
 1. Evaluates stability of the supply (ringing present)
 2. Measuring the deviation in output voltage from the norm. Some processors and FPGAs have 5% or even 3% output voltage tolerances.
 3. Confidence that your supply will work when loads power on, relays engage, or there is some change in load.
+
+### Vin / Enable / Vout / PGood Characteristics
+Most power supplies that we are working with have a number of inputs and outputs that depend on one another. For example, for the LTC8640S supply topology, to have the normal operating output voltage, VIn must be above the Vin_min value listed in the datasheet, but the LTC8641S is in shutdown when the EN pin is low and active when the pin is high. According to the datasheet, When the LT8642S’s output voltage is within the ±8% window of the regulation point, the output voltage is considered good and the open-drain PG pin goes high impedance and is typically pulled high with an external resistor. We want to verify these signals do not glitch and characterize the delay between actions to ensure that we are not violating the minimum time thresholds in the datasheet. 
+
+For these tests, set the oscilloscope to measure the following signals: Vin, EN, PGood, Output
+#### Vin high with EN rising
+Part A:
+1. Hold Vin at the minimum operating voltage
+2. Slowly increase the voltage on the ENABLE pin until the supply enables. Record this a EN_MIN
+Part B:
+1. Set your bench power supply to the expected operating minimum enable voltage
+2. Enable the supply
+3. The scope should be triggered ont he rising PGOOD channel.
+4. Inspect the supply for any glitching of signals
+5. Using the vertical cursors, measure the time between EN @ EN_MIN and the output reaching the steady state value and PGOOD going high. 
+6. Repeat while the output is connected to a load.
+
+#### Vin rising with EN high
+Repeat the previous test except VIn will rise and EN will be held high
+
+### Frequency Response Analysis
+This guide will cover the basics of Frequency Response, but will focus on the practical aspects of frequency response. For more theory, check out these links
+* [AN-1889 How to Measure the Loop Transfer Function of Power Supplies](http://www.ti.com/lit/an/snva364a/snva364a.pdf)
+* [Ridley Engineering](http://www.ridleyengineering.com/design-center-ridley-engineering/)
+
+According to Dr. Ridley, 
+    "Loop gain is an essential measurement on all switching power supplies since it will provide information of stability, closed-loop performance, long-term ruggedness of the control, and a sensitive measure of many parts involved in the power supply construction."
+This [article](http://www.ridleyengineering.com/design-center-ridley-engineering/41-frequency-response/104-026-frequency-response-measurement-part-4-loop-measurements.html) describes the industry standard technique for measuring loop response. Note that for the supplies we are working with the PWM controller and Switching Power Supply are integrated into the same IC. 
+
+We are trying to measure the loop-gain and phase of the feedback system for the power supply. We purposely inject noise into the system at increasing frequency (Channel A) and measure the output (Channel B or R) and compare. R/A plots the gain and phase of the system. In short, we are trying to ensure that both gain and phase will not equal zero at the same time, which leads to an unstable transfer function. There are certain critical aspects of the system:
+* Gain 0 dB crossover frequency: Where does the gain cross zero? Are there multilpe crossovers? This is also known as the "Bandwidth" of the supply. Rule of thumb is about 1/20th the switching frequency
+* Phase Margin: What is the phase doing when gain is at zero? Depending on the application, anywhere from 30 degrees of margin (cheap toys) to > 70 degrees (helicopters, medical instruments) is required. For the pod, 50-60 degrees is the target. 
+* Gain Margin: What is the gain doing when phase crosses zero? Rule of thumb, this should be less than -10 dB
+It should be noted that these are just three points on an entire spectrum. Understanding different types of compensation networks and their gain and phase curves is a more advanced skill, but is still worthwhile. This [article](http://www.ridleyengineering.com/design-center-ridley-engineering/41-frequency-response/140-077-interpreting-loop-gain-measurements.html) goes into more detail. 
+
+#### Why so much margin? 
+Well, you think you're ok with 30 degrees of PM and -5dB of GM. But then it's a little chilly out one day and your iPhone stops working. Or it's a hot day in LA and we're getting in the tube and our boards turn off randomly. Or we've been using the supply for so long our caps start to lose some of their nominal value. Or 100 other things could change in the real world application of the circuit. Having sufficient margins allows for these changes. 
+
+#### Why should we do this? 
+More from Dr. Ridley:
+   "The aerospace design world is probably the most rigorous in making complete sets of bode plots for input impedance, output impedance, audiosusceptibility, and loop gain. Outside of the aerospace world, it is less common to make this full set of measurements. Most experienced designers will make a loop gain measurement since they find that it is a very sensitive measure of just about everything in the power stage and the feedback path. **If some component is the wrong value, or something is built wrong, the loop gain is very likely to show that there is a problem.**"
+
+#### How to perform the test
+For now, I will just link to Dr. Ridley's explaination of the test. [AN_026](http://www.ridleyengineering.com/design-center-ridley-engineering/41-frequency-response/104-026-frequency-response-measurement-part-4-loop-measurements.html)
