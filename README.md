@@ -6,7 +6,7 @@ Altium only works on Windows. See  [Altium System Requirements](https://www.alti
 
 ## Installation
 1. Create an [Altium Live](https://live.altium.com/#Join") and contact Ethan Link, Ryan Castle or Vaughn Kottler to be added to the Badgerloop Team AltiumLive Account and the Badgerloop [Github](https://github.com/badgerloop-software"). You may continue to step to step 8 without requiring an active license.
-2. Download the latest version of [Altium Designer](https://www.altium.com/products/downloads") 
+2. Download the latest version of [Altium Designer](https://www.altium.com/products/downloads) 
 3.  Install Altium. Default file paths will work.
 4. Insall [Git Bash](https://gitforwindows.org/") Git Bash (or whatever BASH emulation tool you are comfortable with)
 5. Open Git Bash
