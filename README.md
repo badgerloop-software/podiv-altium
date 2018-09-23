@@ -53,7 +53,7 @@ There are several ways to contribute to the repo. Check open issues to see what 
    + PCB review: Similar to schematic review, we want to find PCB layout issues before we send out to fabrication. Something as simple as a component flipped around can cause a boards unusable! 
 
 ## Directory Structure
-TODO
+![Directory_Structure](https://github.com/badgerloop-software/podiv-altium/blob/master/pdf/directory_structure.png "Directory Structure")
 
 ## Authors
 TODO
