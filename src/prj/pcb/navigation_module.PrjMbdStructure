@@ -1,0 +1,6 @@
+Record=DiagramHierarchy|SourceDocument=navigation_module.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\nav_io_project.PrjPCB
+Record=SubProject|SourceDocument=navigation_module.MbsDoc|ProjectPath=..\nav_io_project.PrjPCB
+Record=DiagramHierarchy|SourceDocument=navigation_module.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\power_project.PrjPCB
+Record=SubProject|SourceDocument=navigation_module.MbsDoc|ProjectPath=..\power_project.PrjPCB
+Record=DiagramHierarchy|SourceDocument=navigation_module.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\processor_project.PrjPCB
+Record=SubProject|SourceDocument=navigation_module.MbsDoc|ProjectPath=..\processor_project.PrjPCB
