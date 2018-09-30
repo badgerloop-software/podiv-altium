@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for power_project
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -72,6 +72,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FTOAKWUI
 
 [Document3]
+DocumentPath=sch\power_PROTECTION.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CADYECPG
+
+[Document4]
 DocumentPath=sch\power_main_connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWCHXHNL
 
-[Document4]
+[Document5]
 DocumentPath=..\lib\capacitor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=..\lib\capacitor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KGVJVNPE
 
-[Document6]
+[Document7]
 DocumentPath=..\lib\connector.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,9 +154,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WMPOKWHJ
 
-[Document7]
+[Document8]
 DocumentPath=..\lib\connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUFXMQFD
 
-[Document8]
+[Document9]
 DocumentPath=..\lib\ic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -171,9 +188,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EGNUHWHV
 
-[Document9]
+[Document10]
 DocumentPath=..\lib\ic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VVMLXTJM
 
-[Document10]
+[Document11]
 DocumentPath=..\lib\misc.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBDFWHSJ
 
-[Document11]
+[Document12]
 DocumentPath=..\lib\misc.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DCGEBBGI
 
-[Document12]
+[Document13]
 DocumentPath=..\lib\resistor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=..\lib\resistor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFMFUGBL
 
-[Document14]
+[Document15]
 DocumentPath=..\lib\inductor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ENXIHYFJ
 
-[Document15]
+[Document16]
 DocumentPath=..\lib\inductorPcbLib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHSULYVK
 
-[Document16]
+[Document17]
 DocumentPath=power_project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document18]
 DocumentPath=pcb\power_pcb.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -327,12 +344,24 @@ GenerateClassCluster=0
 DocumentUniqueId=YHWCLQTO
 
 [GeneratedDocument1]
-DocumentPath=pdf\BOM\power_project_BOM.xls
+DocumentPath=Project Outputs for power_project\Design Rule Check - power_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=pdf\BOM\power_project_BOM.xlsx
+DocumentPath=pdf\BOM\power_project_BOM.xls
 DItemRevisionGUID=
+
+[Parameter1]
+Name=
+Value=
+
+[Parameter2]
+Name=sheetnumber
+Value==SheetNumber
+
+[Parameter3]
+Name=revision
+Value=A
 
 [Configuration1]
 Name=Sources
@@ -381,7 +410,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for power_project
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
