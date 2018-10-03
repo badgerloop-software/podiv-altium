@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 12:20:52 AM On 9/29/2018
+Start Output Generation At 7:46:30 PM On 10/2/2018
 
 Output: Bill of Materials
 Type  : BOM
@@ -11,4 +11,4 @@ From  : Project [power_project.PrjPCB]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:21:06 AM On 9/29/2018
+Finished Output Generation At 7:47:11 PM On 10/2/2018
