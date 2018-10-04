@@ -31,7 +31,7 @@ Altium only works on Windows. See  [Altium System Requirements](https://www.alti
 10. You are now ready to use Altium. See [Training](#training) for more details on how to get started. 
 
 ## Training
-View the [Badgerloop Altium Presentation](https://uwmadison.box.com/s/2sdt8kfaeyde04sg8edn62u7vtrdsiyx") for a getting started project. You can work locally for this project. Git-specific training will be posted at a later date. 
+View the [Badgerloop Altium Presentation](https://uwmadison.box.com/s/2sdt8kfaeyde04sg8edn62u7vtrdsiyx") for a getting started project. You can work locally for this project. Git-specific training will be posted at a later date but some common git commands can be found [here](http://rogerdudler.github.io/git-guide/). 
 
 ## General Tips
 + Do not try to use Altium's built in check-out/commit tools. Instead, use Git from the terminal to perform git operations. This prevents a lot of conflicts. Learning how to use the command line is a really good thing to learn how to do as it's used in industry all over.
