@@ -24,3 +24,10 @@ https://youtu.be/r89xm_44ldI
 6. Check your layers, are you working primarily on the top side? 
 7. Did you check your real-world component dimensions with calipers?
 8. What is your snap grid? 
+
+## Temporary Libraries:
+While doing a design you may want to move pin locations, adjust sizes, clean up silkscreen, etc. and it’s cumbersome to switch back and forth between the libraries branch and your project branch, doing a PR, getting it merged and rebased. This leads to not doing it and ignoring the structure set up. 
+
+
+
+Temporary Library files can be used for a particular branch while actively fine tuning library components. When you are at a decent pause point, you should commit your changes, save the library locally to your machine, then switch to the primary libraries branch. Once here, copy and paste your changes into the main libraries, go through the checklists, and make  PR. Once you are merged into master, go back to your project branch, rebase, and update your component links all at once. Once we have a solid library of verified parts this will be less necessary.
