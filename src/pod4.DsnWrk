@@ -5,8 +5,10 @@ ProjectPath=prj\pcb\navigation_module.PrjMbd
 [Project2]
 ProjectPath=prj\nav_io_project.PrjPCB
 [Project3]
-ProjectPath=prj\processor_project.PrjPCB
-[Project4]
-ProjectPath=prj\precharge_project.PrjPCB
-[Project5]
 ProjectPath=prj\power_project.PrjPCB
+[Project4]
+ProjectPath=prj\processor_project.PrjPCB
+[Project5]
+ProjectPath=prj\precharge_project.PrjPCB
+[Project6]
+ProjectPath=templates\snippets\snippet_project.PrjPCB
