@@ -56,6 +56,7 @@ There are several ways to contribute to the repo. Check open issues to see what 
 + [Ryan Castle](https://www.linkedin.com/in/ryan-castle-589721106/)
 + [Vaughn Kottler](https://www.linkedin.com/in/vaughnkottler/)
 + [Austin Muschott](https://www.linkedin.com/in/austin-muschott/)
++ [Tristan Steiner](https://www.linkedin.com/in/tristan-steiner-0bba76106/)
 
 (Add yourself when you make your first commit!)
 
