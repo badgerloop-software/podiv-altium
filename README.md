@@ -15,6 +15,7 @@ Altium only works on Windows. See  [Altium System Requirements](https://www.alti
    + mkdir git_repos
    + cd git_repos
    + git clone https://github.com/badgerloop-software/podiv-altium.git
+   + cd podiv-altium
    + git checkout -b <your-username_training>
    + Open Altium and sign in. You are now on a training branch that you will complete your first getting started project on if you are new to Altium. 
 7. Go to User (Silhouette in the top right corner) -> License Management. Then Click Sign In and enter your username and password associated with Altium Live and accept the warning. It's also a good idea to check Sign me in when I start Altium Designer if you'd like to save a little time.
