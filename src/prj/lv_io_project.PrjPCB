@@ -412,23 +412,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AHVEWDPU
 
 [Document23]
-DocumentPath=lv_io_project.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IBQKUNYY
-
-[Document24]
 DocumentPath=sch\lv_io_lim.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
