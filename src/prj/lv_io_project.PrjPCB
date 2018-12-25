@@ -395,23 +395,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HLSLHPDR
 
 [Document22]
-DocumentPath=sch\lv_io_analog_input.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AHVEWDPU
-
-[Document23]
 DocumentPath=sch\lv_io_lim.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,9 +411,71 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHNVOWFY
 
+[Document23]
+DocumentPath=sch\lv_io_temp.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RMYOMVQX
+
+[Document24]
+DocumentPath=..\templates\badgerloop_A4.SchDot
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ATUXSGBO
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for lv_io_project\Design Rule Check - lv_io_pcb.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=
+Value=
+
+[Parameter2]
+Name=Revision
+Value=A
+
+[Parameter3]
+Name=SerialNumber
+Value=2019_03_A_1
+
+[Parameter4]
+Name=Project
+Value=LV_IO
+
+[Parameter5]
+Name=PCB_Designer
+Value=Ryan Castle
+
+[Parameter6]
+Name=Engineer
+Value=Ryan Castle
+
+[Parameter7]
+Name=
+Value=
 
 [Configuration1]
 Name=Sources
@@ -500,7 +545,7 @@ OutputDefault2=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 6500 E710n-z
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
