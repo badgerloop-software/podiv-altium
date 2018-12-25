@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for lv_io_project
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -428,54 +428,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMYOMVQX
 
-[Document24]
-DocumentPath=..\templates\badgerloop_A4.SchDot
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ATUXSGBO
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for lv_io_project\Design Rule Check - lv_io_pcb.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=
-Value=
-
-[Parameter2]
-Name=Revision
-Value=A
-
-[Parameter3]
-Name=SerialNumber
-Value=2019_03_A_1
-
-[Parameter4]
-Name=Project
-Value=LV_IO
-
-[Parameter5]
-Name=PCB_Designer
-Value=Ryan Castle
-
-[Parameter6]
 Name=Engineer
 Value=Ryan Castle
 
-[Parameter7]
-Name=
-Value=
+[Parameter2]
+Name=PCB_Designer
+Value=Ryan Castle
+
+[Parameter3]
+Name=Project
+Value=LV_IO
+
+[Parameter4]
+Name=Revision
+Value=A
+
+[Parameter5]
+Name=SerialNumber
+Value=2019_03_A_1
 
 [Configuration1]
 Name=Sources
@@ -524,7 +499,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for lv_io_project
 
 [OutputGroup1]
 Name=Netlist Outputs
