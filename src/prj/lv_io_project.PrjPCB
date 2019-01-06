@@ -344,23 +344,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PPTHNJAB
 
 [Document19]
-DocumentPath=temp.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VIJLVNPR
-
-[Document20]
 DocumentPath=sch\lv_io_solenoid_drv.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,39 +360,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RUBOSPFR
 
-[Document21]
-DocumentPath=temp.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HLSLHPDR
-
-[Document22]
-<<<<<<< HEAD
+[Document20]
 DocumentPath=sch\lv_io_analog_input.SchDoc
-=======
-DocumentPath=sch\lv_io_lim.SchDoc
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-<<<<<<< HEAD
 AnnotateOrder=7
-=======
-AnnotateOrder=8
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -417,34 +375,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-<<<<<<< HEAD
 DocumentUniqueId=AHVEWDPU
 
-[Document23]
-DocumentPath=lv_io_project.SCHLIB
-=======
-DocumentUniqueId=GHNVOWFY
-
-[Document23]
-DocumentPath=sch\lv_io_temp.SchDoc
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-<<<<<<< HEAD
-DocumentUniqueId=IBQKUNYY
-
-[Document24]
+[Document21]
 DocumentPath=sch\lv_io_lim.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -460,16 +393,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHNVOWFY
-=======
-DocumentUniqueId=RMYOMVQX
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for lv_io_project\Design Rule Check - lv_io_pcb.html
-DItemRevisionGUID=
-
-<<<<<<< HEAD
-=======
 [Parameter1]
 Name=Engineer
 Value=Ryan Castle
@@ -490,7 +414,6 @@ Value=A
 Name=SerialNumber
 Value=2019_03_A_1
 
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -555,8 +478,6 @@ OutputName2=PCAD Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-<<<<<<< HEAD
-=======
 OutputType3=CadnetixNetlist
 OutputName3=Cadnetix Netlist
 OutputDocumentPath3=
@@ -647,16 +568,11 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-<<<<<<< HEAD
-TargetPrinter=Microsoft Print to PDF
-=======
 TargetPrinter=HP Officejet 6500 E710n-z
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1074,14 +990,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-<<<<<<< HEAD
-=======
 OutputType7=BOM_Violations
 OutputName7=BOM Checks Report
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1262,10 +1175,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
-<<<<<<< HEAD
-=======
 Type117=1
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 
 [Difference Levels]
 Type1=1
@@ -1333,10 +1243,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
-<<<<<<< HEAD
-=======
 Type66=1
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 
 [Electrical Rules Check]
 Type1=1
