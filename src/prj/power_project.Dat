@@ -1,42 +1,42 @@
-﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|Field=Digi-Key Part Number~String~Digi-Key Part Number~100|Field=Manufacturer~String~Manufacturer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~power_project.PrjPCB|ReportField=ProjectFullPath~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\power_project.PrjPCB|ReportField=Title~Bill of Materials For Project [power_project.PrjPCB] (No PCB Document Selected)|ReportField=ReportTime~7:46:44 PM|ReportField=ReportDate~10/2/2018|ReportField=ReportDateTime~10/2/2018 7:46:44 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~92|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~0e48b551deb7d94de422a93b60dd3ea83833ade0|ReportField=~|ReportField=sheetnumber~=SheetNumber|ReportField=revision~A|ReportField=Address1~133 Engineering Research|ReportField=Address2~Building|ReportField=Address3~Madison, WI 53715|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~9/29/2018|ReportField=CurrentTime~8:03:41 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\sch\power_CTL.schdoc|ReportField=DocumentName~power_CTL.schdoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~Ryan Castle|ReportField=Engineer~Ryan Castle|ReportField=ImagePath~|ReportField=ModifiedDate~9/29/2018|ReportField=Organization~Badgerloop|ReportField=ProjectName~power_project.PrjPCB|ReportField=Rule~|ReportField=SheetTotal~2|ReportField=Time~|ReportField=Title~power_CTL.schdoc|ReportField=DataSourceFileName~power_project.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\power_project.PrjPCB|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
-1|1µF|CAP CER 1UF 50V X5R 0603|C1, C11, C14|SMD-0603C|GRM188R61H105KAALD|3|490-10732-1-ND|Murata Electronics North America
-2|10µF|CAP CER 10UF 50V X5R 1206|C2, C4|SMD-1206C|GRM31CR61H106KA12L|2|490-5961-1-ND|Murata Electronics North America
-3|1µF|CAP CER 1UF 50V X7R 0805|C3, C5, C28|SMD-0805C|GCJ21BR71H105KA01L|3|490-10667-1-ND|Murata Electronics North America
-4|0.22µF|CAP CER 0.22UF 25V X7R 0603|C6, C7|SMD-0603C|GCJ188R71E224KA12D|2|490-5797-1-ND|Murata Electronics North America
-5|4.7µF|CAP CER 4.7UF 25V X5R 0603|C8, C15|SMD-0603C|GRM188R61E475KE11D|2|490-7203-1-ND|Murata Electronics North America
-6|47µF|CAP CER 47UF 10V X5R 1206|C9, C10, C16, C17|SMD-1206C|GRM31CR61A476ME15L|4|490-5528-1-ND|Murata Electronics North America
-7|4.7pF|CAP CER 4.7PF 50V NP0 0603|C12, C13|SMD-0603C|GRM1885C1H4R7CA01D|2|490-12722-1-ND|Murata Electronics North America
-8|0.047µF|CAP CER 0.047UF 16V X7R 0402|C18, C19, C20, C21|SMD-0402C|GCM155R71C473KA37D|4|490-6042-1-ND|Murata Electronics North America
-9|10000pF|CAP CER 10000PF 25V X7R 0603|C22, C23|SMD-0603C|GRM188R71E103KA01D|2|490-1520-1-ND|Murata Electronics North America
-10|4.7µF|CAP CER 4.7UF 50V X5R 0805|C24|SMD-0805C|GRM21BR61H475KE51L|1|490-10751-1-ND|Murata Electronics North America
-11|22uF|CAP CER 10000PF 250V X7T 0805|C25, C26|SMD-0805C|GC321AD72E103KX01D|2|445-11527-1-ND|TDK Corporation
-12|0.10µF|CAP CER 0.1UF 50V X7R 0805|C27, C29|SMD-0805C|GCD21BR71H104KA01L|2|490-11955-1-ND|Murata Electronics North America
-13|CMJ2000|DIODE CURRENT LIMITING SINGLE SM|CLD1, CLD2, CLD3|SODFL350X80-2N|DIODE Current Limiting Single SM|3||Central Semiconductor Corp
-14|Diode General Purpose|DIODE GEN PURP 100V 150MA SOD123|D1|Diode General Purpose|Diode General Purpose|1||Micro Commercial Co
-15|N-MOS|MOSFET N-CH 60V 200MA SOT23-3|FET1, FET2|SOT95P240X110-3N|N-MOS Enhancement Mode|2||Zetex
-16|D Connector 15|Receptacle Assembly, 15 Position, Right Angle|J1|DSUB1.385-2H15|D Connector 15|1||
-17|D Connector 9|Receptacle Assembly, 9 Position, Right Angle|J2|DSUB1.385-2H9|D Connector 9|1||
-18|IND 1.0uH 5.48x5.28x3.1mm 5mOhm ESR|XFL5030-102ME|L1, L2|INDC5649X31N|IND 1.0uH 5.48x5.28x3.1mm 5mOhm ESR|2||
-19|GREEN 0603||LED1, LED2|LED 0603 GREEN|LED GREEN 0603|2||Lite-On Inc.
-20|LED RED 0603|Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)|LED3|LED 0603 RED|LED RED 0603|1||Lite-On Inc.
-21|LED GREEN 0603||LED4, LED5|LED 0603 GREEN|LED GREEN 0603|2||Lite-On Inc.
-22|#10 Mount Hole||MH1, MH2, MH3, MH4|MH|#10 Mount Hole|4||
-23|Header 3|Header, 3-Pin|P1, P2, P3|Pin Header 1x3 TH Pitch 2.54mm|Header 3|3||
-24|15k|RES SMD 15K OHM 5% 1/10W 0402|R1|SMD-0402-RES|ERJ-2GEJ153X|1|P15KJCT-ND|Panasonic Electronic Components
-25|1M|RES SMD 1M OHM 1% 1/10W 0402, RES SMD 1M OHM 5% 1/10W 0402|R2, R3, R4, R5, R6, R7, R14, R15, R16|SMD-0402-RES|ERJ-2RKF1004X, ERJ-2GEJ105X|9|P1.00MLCT-ND, P1.0MJCT-ND|Panasonic Electronic Components
-26|191k|RES SMD 191K OHM 1% 1/10W 0402|R8, R9|SMD-0402-RES|ERJ-2RKF1913X|2|P191KLCT-ND|Panasonic Electronic Components
-27|25.5|RES SMD 25.5 OHM 1% 1/8W 0805|R10, R11|SMD-0805-RES|ERJ-6ENF25R5V|2|P25.5CCT-ND|Panasonic Electronic Components
-28|100k|RES SMD 100K OHM 5% 1/10W 0402|R12, R13|SMD-0402-RES|ERJ-2GEJ104X|2|P100KJCT-ND|Panasonic Electronic Components
-29|56k|RES SMD 56K OHM 5% 1/10W 0402|R17|SMD-0402-RES|ERJ-2GEJ563X|1|P56KJCT-ND|Panasonic Electronic Components
-30|510k|RES SMD 510K OHM 5% 1/10W 0402|R18|SMD-0402-RES|ERJ-2GEJ514X|1|P510KJCT-ND|Panasonic Electronic Components
-31|0.0|RES SMD 0.0OHM JUMPER 1/10W 0402|R19, R20|SMD-0402-RES|ERJ-2GE0R00X|2|P0.0JCT-ND|Panasonic Electronic Components
-32|36k|RES SMD 36K OHM 1% 1/10W 0402|R21|SMD-0402-RES|ERJ-2RKF3602X|1|P36.0KLCT-ND|Panasonic Electronic Components
-33|0.01|RES SMD 0.01 OHM 1% 1W 1206|R22|SMD-1206-RES|ERJ-8CWFR010V|1|P0.01BVCT-ND|Panasonic Electronic Components
-34|750k|RES SMD 750K OHM 5% 1/8W 0805|R23|SMD-0805-RES|ERJ-6GEYJ754V|1|P750KACT-ND|Panasonic Electronic Components
-35|270k|RES SMD 270K OHM 5% 1/8W 0805|R24|SMD-0805-RES|ERJ-6GEYJ274V|1|P270KACT-ND|Panasonic Electronic Components
-36|TP||TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP13|Test Point|TP|12||
-37|LT8650SEV#PBF|LT8650S - Dual Channel 4A, 42V, Synchronous Step-Down Silent Switcher 2 with 6.2ÂµA Quiescent Current|U1|QFN50P600X400X103-32N240X440|LT8650SEV#PBF|1||
-38|SI4214DDY-T1-GE3|Mosfet Array 2 N-Channel (Dual) 30V 8.5A 3.1W Surface Mount 8-SO|U2|SOIC-8_SI-L|SI4214DDY-T1-GE3|1||
-39|LTC4365CTS8#TRMP|Overvoltage,Undervoltage and ReverseSupply Protection Controller|U3|TSOT-23_TS8|LTC4365CTS8#TRMP|1||
-40|INA240A|IC AMP CURRENT SENSE 8-TSSOP|U4|SOIC127P600X175-8N|INA240A|1||TI
-41|ADR3433|IC VREF SERIES 3.3V SOT23-6|U5|SOT95P280X145-6N|ADR3433|1||Analog Devices
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~power_project.PrjPCB|ReportField=ProjectFullPath~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\power_project.PrjPCB|ReportField=Title~Copy of Bill of Materials For Project [power_project.PrjPCB] (No PCB Document Selected)|ReportField=ReportTime~9:51:28 PM|ReportField=ReportDate~12/30/2018|ReportField=ReportDateTime~12/30/2018 9:51:28 PM|ReportField=OutputName~Copy of Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~92|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~97bda90b260e62c3640916df0abe6e07ceb4acca|ReportField=revision~A|ReportField=sheetnumber~=SheetNumber|ReportField=Address1~133 Engineering Research|ReportField=Address2~Building|ReportField=Address3~Madison, WI 53715|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~12/30/2018|ReportField=CurrentTime~9:48:12 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\sch\power_CTL.schdoc|ReportField=DocumentName~power_CTL.schdoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~Ryan Castle|ReportField=Engineer~Ryan Castle|ReportField=ImagePath~|ReportField=ModifiedDate~12/21/2018|ReportField=Organization~Badgerloop|ReportField=ProjectName~power_project.PrjPCB|ReportField=Rule~|ReportField=SheetTotal~2|ReportField=Time~|ReportField=Title~power_CTL.schdoc|ReportField=DataSourceFileName~power_project.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\power_project.PrjPCB|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|1µF|CAP CER 1UF 50V X5R 0603|C1, C11, C14|SMD-0603C|GRM188R61H105KAALD|3
+2|10µF|CAP CER 10UF 50V X5R 1206|C2, C4|SMD-1206C|GRM31CR61H106KA12L|2
+3|1µF|CAP CER 1UF 50V X7R 0805|C3, C5, C28|SMD-0805C|GCJ21BR71H105KA01L|3
+4|0.22µF|CAP CER 0.22UF 25V X7R 0603|C6, C7|SMD-0603C|GCJ188R71E224KA12D|2
+5|4.7µF|CAP CER 4.7UF 25V X5R 0603|C8, C15|SMD-0603C|GRM188R61E475KE11D|2
+6|47µF|CAP CER 47UF 10V X5R 1206|C9, C10, C16, C17|SMD-1206C|GRM31CR61A476ME15L|4
+7|4.7pF|CAP CER 4.7PF 50V NP0 0603|C12, C13|SMD-0603C|GRM1885C1H4R7CA01D|2
+8|0.047µF|CAP CER 0.047UF 16V X7R 0402|C18, C19, C20, C21|SMD-0402C|GCM155R71C473KA37D|4
+9|10000pF|CAP CER 10000PF 25V X7R 0603|C22, C23|SMD-0603C|GRM188R71E103KA01D|2
+10|4.7µF|CAP CER 4.7UF 50V X5R 0805|C24|SMD-0805C|GRM21BR61H475KE51L|1
+11|22uF|CAP CER 10000PF 250V X7T 0805|C25, C26|SMD-0805C|GC321AD72E103KX01D|2
+12|0.10µF|CAP CER 0.1UF 50V X7R 0805|C27, C29|SMD-0805C|GCD21BR71H104KA01L|2
+13|CMJ2000|DIODE CURRENT LIMITING SINGLE SM|CLD1, CLD2, CLD3|SODFL350X80-2N|DIODE Current Limiting Single SM|3
+14|Diode General Purpose|DIODE GEN PURP 100V 150MA SOD123|D1|Diode General Purpose|Diode General Purpose|1
+15|N-MOS|MOSFET N-CH 60V 200MA SOT23-3|FET1, FET2|SOT95P240X110-3N|N-MOS Enhancement Mode|2
+16|D Connector 15|Receptacle Assembly, 15 Position, Right Angle|J1|DSUB1.385-2H15|D Connector 15|1
+17|D Connector 9|Receptacle Assembly, 9 Position, Right Angle|J2|DSUB1.385-2H9|D Connector 9|1
+18|IND 1.0uH 5.48x5.28x3.1mm 5mOhm ESR|XFL5030-102ME|L1, L2|INDC5649X31N|IND 1.0uH 5.48x5.28x3.1mm 5mOhm ESR|2
+19|GREEN 0603||LED1, LED2|LED 0603 GREEN|LED GREEN 0603|2
+20|LED RED 0603|Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)|LED3|LED 0603 RED|LED RED 0603|1
+21|LED GREEN 0603||LED4, LED5|LED 0603 GREEN|LED GREEN 0603|2
+22|#10 Mount Hole||MH1, MH2, MH3, MH4|MH|#10 Mount Hole|4
+23|Header 3|Header, 3-Pin|P1, P2, P3|Pin Header 1x3 TH Pitch 2.54mm|Header 3|3
+24|15k|RES SMD 15K OHM 5% 1/10W 0402|R1|SMD-0402-RES|ERJ-2GEJ153X|1
+25|1M|RES SMD 1M OHM 1% 1/10W 0402, RES SMD 1M OHM 5% 1/10W 0402|R2, R3, R4, R5, R6, R7, R14, R15, R16|SMD-0402-RES|ERJ-2RKF1004X, ERJ-2GEJ105X|9
+26|191k|RES SMD 191K OHM 1% 1/10W 0402|R8, R9|SMD-0402-RES|ERJ-2RKF1913X|2
+27|25.5|RES SMD 25.5 OHM 1% 1/8W 0805|R10, R11|SMD-0805-RES|ERJ-6ENF25R5V|2
+28|100k|RES SMD 100K OHM 5% 1/10W 0402|R12, R13|SMD-0402-RES|ERJ-2GEJ104X|2
+29|56k|RES SMD 56K OHM 5% 1/10W 0402|R17|SMD-0402-RES|ERJ-2GEJ563X|1
+30|510k|RES SMD 510K OHM 5% 1/10W 0402|R18|SMD-0402-RES|ERJ-2GEJ514X|1
+31|0.0|RES SMD 0.0OHM JUMPER 1/10W 0402|R19, R20|SMD-0402-RES|ERJ-2GE0R00X|2
+32|36k|RES SMD 36K OHM 1% 1/10W 0402|R21|SMD-0402-RES|ERJ-2RKF3602X|1
+33|0.01|RES SMD 0.01 OHM 1% 1W 1206|R22|SMD-1206-RES|ERJ-8CWFR010V|1
+34|750k|RES SMD 750K OHM 5% 1/8W 0805|R23|SMD-0805-RES|ERJ-6GEYJ754V|1
+35|270k|RES SMD 270K OHM 5% 1/8W 0805|R24|SMD-0805-RES|ERJ-6GEYJ274V|1
+36|TP||TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP13|Test Point|TP|12
+37|LT8650SEV#PBF|LT8650S - Dual Channel 4A, 42V, Synchronous Step-Down Silent Switcher 2 with 6.2ÂµA Quiescent Current|U1|QFN50P600X400X103-32N240X440|LT8650SEV#PBF|1
+38|SI4214DDY-T1-GE3|Mosfet Array 2 N-Channel (Dual) 30V 8.5A 3.1W Surface Mount 8-SO|U2|SOIC-8_SI-L|SI4214DDY-T1-GE3|1
+39|LTC4365CTS8#TRMP|Overvoltage,Undervoltage and ReverseSupply Protection Controller|U3|TSOT-23_TS8|LTC4365CTS8#TRMP|1
+40|INA240A|IC AMP CURRENT SENSE 8-TSSOP|U4|SOIC127P600X175-8N|INA240A|1
+41|ADR3433|IC VREF SERIES 3.3V SOT23-6|U5|SOT95P280X145-6N|ADR3433|1
