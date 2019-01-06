@@ -344,10 +344,6 @@ GenerateClassCluster=0
 DocumentUniqueId=YHWCLQTO
 
 [GeneratedDocument1]
-DocumentPath=pdf\BOM\power_project_BOM.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=pdf\BOM\power_project_BOM.xlsx
 DItemRevisionGUID=
 
