@@ -1,0 +1,6 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\lv_io_project.PrjPCB
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\lv_io_project.PrjPCB
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\power_project.PrjPCB
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\power_project.PrjPCB
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\..\..\..\side_bae\podiv-altium\src\prj\processor_project.PrjPCB
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\..\..\side_bae\podiv-altium\src\prj\processor_project.PrjPCB

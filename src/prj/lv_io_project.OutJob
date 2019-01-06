@@ -1,0 +1,403 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+<<<<<<< HEAD
+[PublishSettings]
+OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\.PDF
+ReleaseManaged2=0
+OutputBasePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\
+=======
+[OutputGroup1]
+Name=lv_io_project.OutJob
+Description=
+TargetOutputMedium=New Folder Structure
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=HP Officejet 6500 E710n-z
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=BOM
+OutputMedium3_Type=Publish
+OutputMedium4=New Folder Structure
+OutputMedium4_Type=GeneratedFiles
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=PCB Print
+OutputName2=PCB Prints
+OutputCategory2=Documentation
+OutputDocumentPath2=lv_io_pcb.PcbDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.98|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration2_Name2=OutputConfigurationParameter2
+Configuration2_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Drill|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name3=OutputConfigurationParameter3
+Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name4=OutputConfigurationParameter4
+Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name5=OutputConfigurationParameter5
+Configuration2_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name6=OutputConfigurationParameter6
+Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name7=OutputConfigurationParameter7
+Configuration2_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name8=OutputConfigurationParameter8
+Configuration2_Item8=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=L1_Top|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name9=OutputConfigurationParameter9
+Configuration2_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name10=OutputConfigurationParameter10
+Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name11=OutputConfigurationParameter11
+Configuration2_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name12=OutputConfigurationParameter12
+Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name13=OutputConfigurationParameter13
+Configuration2_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name14=OutputConfigurationParameter14
+Configuration2_Item14=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=L2_GND|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name15=OutputConfigurationParameter15
+Configuration2_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name16=OutputConfigurationParameter16
+Configuration2_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name17=OutputConfigurationParameter17
+Configuration2_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name18=OutputConfigurationParameter18
+Configuration2_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name19=OutputConfigurationParameter19
+Configuration2_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration2_Name20=OutputConfigurationParameter20
+Configuration2_Item20=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=L3_POWER|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name21=OutputConfigurationParameter21
+Configuration2_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name22=OutputConfigurationParameter22
+Configuration2_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name23=OutputConfigurationParameter23
+Configuration2_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name24=OutputConfigurationParameter24
+Configuration2_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name25=OutputConfigurationParameter25
+Configuration2_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration2_Name26=OutputConfigurationParameter26
+Configuration2_Item26=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=L4_Bottom|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name27=OutputConfigurationParameter27
+Configuration2_Item27=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration2_Name28=OutputConfigurationParameter28
+Configuration2_Item28=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration2_Name29=OutputConfigurationParameter29
+Configuration2_Item29=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration2_Name30=OutputConfigurationParameter30
+Configuration2_Item30=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration2_Name31=OutputConfigurationParameter31
+Configuration2_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+PcbPrintPreferences2=
+OutputType3=PCB 3D Print
+OutputName3=PCB 3D Print
+OutputCategory3=Documentation
+OutputDocumentPath3=lv_io_pcb.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=3
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.42|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=77347856|ViewY=47418884|LookAtX=31474038|LookAtY=29919390|LookAtZ=-50000.3515625|UpX=0.20295387506485|UpY=0.514725625514984|UpZ=-0.832987010478973|FOV=45|QuatX=-0.418361067771912|QuatY=0.271365314722061|QuatZ=-0.26002162694931|QuatW=0.826875925064087|Zoom=3.7221457147508E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ViewConfig=
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
+OutputCategory4=Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=1
+OutputEnabled4_OutputMedium4=1
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\templates\AltiumBOMTemplate.xlsx|BatchMode=5|FormWidth=2350|FormHeight=1605|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Comment=True|Footprint=True
+Configuration4_Name5=OutputConfigurationParameter1
+Configuration4_Item5=??
+Configuration4_Name6=PCBDocument
+Configuration4_Item6=FileName=lv_io_pcb.PcbDoc
+Configuration4_Name7=PCBDocument2
+Configuration4_Item7=FileName=[PCB Document 1]
+Configuration4_Name8=SortOrder
+Configuration4_Item8=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name9=VisibleOrder
+Configuration4_Item9=Comment=60|Description=66|Designator=92|Digikey Link=92|Digikey P/N=61|Digi-Key Part Number=42|DNP=42|Footprint=42|LibRef=42|Quantity=42|Manufacturer=42|Manufacturer P/N=40
+OutputType5=BOM_PartType
+OutputName5=Copy of Bill of Materials
+OutputCategory5=Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=Filter
+Configuration5_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration5_Name3=General
+Configuration5_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD18\Templates\BOM Purchase.XLT|BatchMode=5|FormWidth=2350|FormHeight=1605|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
+Configuration5_Name4=GroupOrder
+Configuration5_Item4=Comment=True|Footprint=True
+Configuration5_Name5=OutputConfigurationParameter1
+Configuration5_Item5=escription=66|Designator=92|Digikey Link=92|Digikey P/N=61|Digi-Key Part Number=42|DNP=42|Footprint=42|LibRef=42|Quantity=42|Manufacturer=42|Manufacturer P/N=40
+Configuration5_Name6=SortOrder
+Configuration5_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration5_Name7=VisibleOrder
+Configuration5_Item7=Comment=40|Description=40|Designator=40|Footprint=40|LibRef=40|Quantity=40
+
+[PublishSettings]
+OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
+ReleaseManaged2=0
+OutputBasePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\
+>>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=lv_io_project.pdf
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=0
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+<<<<<<< HEAD
+OutputFilePath3=
+ReleaseManaged3=1
+OutputBasePath3=
+=======
+OutputFilePath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for lv_io_project
+>>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+<<<<<<< HEAD
+OutputFileName3=
+=======
+OutputFileName3=lv_io_project.PDF
+>>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+<<<<<<< HEAD
+OutputFilePath4=
+ReleaseManaged4=1
+OutputBasePath4=
+=======
+PromptOverwrite3=1
+PublishMethod3=0
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=1
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+GenerateTOC3=1
+ShowComponentParameters3=1
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
+ReleaseManaged4=0
+OutputBasePath4=pdf\BOM\
+>>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+<<<<<<< HEAD
+OutputFileNameMulti4=
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=1
+PromptOverwrite4=1
+PublishMethod4=5
+ZoomLevel4=50
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=1
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+MediaFormat4=Windows Media file (*.wmv,*.wma,*.asf)
+FixedDimensions4=1
+Width4=352
+Height4=288
+MultiFile4=0
+FramesPerSecond4=25
+FramesPerSecondDenom4=1
+AviPixelFormat4=7
+AviCompression4=MP42 MS-MPEG4 V2
+AviQuality4=100
+FFmpegVideoCodecId4=13
+FFmpegPixelFormat4=0
+FFmpegQuality4=80
+WmvVideoCodecName4=Windows Media Video V7
+WmvQuality4=80
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\.PDF
+OpenOutputs2=1
+RelativeOutputPath3=
+OpenOutputs3=1
+AddToProject3=1
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=
+OpenOutputs4=1
+
+[OutputGroup1]
+Name=
+Description=
+TargetOutputMedium=PDF
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Folder Structure
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Video
+OutputMedium4_Type=Multimedia
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=PCB Print
+OutputName2=PCB Prints
+OutputCategory2=Documentation
+OutputDocumentPath2=lv_io_pcb.PcbDoc
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.81|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration2_Name2=OutputConfigurationParameter2
+Configuration2_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name3=OutputConfigurationParameter3
+Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+PcbPrintPreferences2=
+=======
+OutputFileNameMulti4=lv_io_BOM
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
+OpenOutputs3=1
+RelativeOutputPath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
+OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+>>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+
