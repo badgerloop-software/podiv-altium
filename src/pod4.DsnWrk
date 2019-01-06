@@ -1,10 +1,8 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=prj\precharge_project.PrjPCB
-[Project2]
-ProjectPath=templates\snippets\snippet_project.PrjPCB
-[Project3]
 ProjectPath=prj\lv_io_project.PrjPCB
-[Project4]
-ProjectPath=..\..\side_bae\podiv-altium\src\templates\snippets\snippet_project.PrjPCB
+[Project2]
+ProjectPath=prj\power_project.PrjPCB
+[Project3]
+ProjectPath=prj\processor_project.PrjPCB

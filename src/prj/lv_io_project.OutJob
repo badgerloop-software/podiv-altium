@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=lv_io_project.OutJob
 Description=
-TargetOutputMedium=BOM
+TargetOutputMedium=New Folder Structure
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=HP Officejet 6500 E710n-z
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -29,10 +29,10 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
-OutputMedium3=Video
-OutputMedium3_Type=Multimedia
-OutputMedium4=BOM
-OutputMedium4_Type=Publish
+OutputMedium3=BOM
+OutputMedium3_Type=Publish
+OutputMedium4=New Folder Structure
+OutputMedium4_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
@@ -144,7 +144,7 @@ OutputVariantName4=
 OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium3=1
 OutputEnabled4_OutputMedium4=1
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=Letter|PaperIndex=1
@@ -153,7 +153,7 @@ Configuration4_Item1=CaptionAsName
 Configuration4_Name2=Filter
 Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration4_Name3=General
-Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD18\Templates\BOM Purchase.XLT|BatchMode=5|FormWidth=2350|FormHeight=1605|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
+Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\templates\AltiumBOMTemplate.xlsx|BatchMode=5|FormWidth=2350|FormHeight=1605|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
 Configuration4_Name4=GroupOrder
 Configuration4_Item4=Comment=True|Footprint=True
 Configuration4_Name5=OutputConfigurationParameter1
@@ -166,6 +166,32 @@ Configuration4_Name8=SortOrder
 Configuration4_Item8=Designator=Up|Comment=Up|Footprint=Up
 Configuration4_Name9=VisibleOrder
 Configuration4_Item9=Comment=60|Description=66|Designator=92|Digikey Link=92|Digikey P/N=61|Digi-Key Part Number=42|DNP=42|Footprint=42|LibRef=42|Quantity=42|Manufacturer=42|Manufacturer P/N=40
+OutputType5=BOM_PartType
+OutputName5=Copy of Bill of Materials
+OutputCategory5=Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=Filter
+Configuration5_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration5_Name3=General
+Configuration5_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD18\Templates\BOM Purchase.XLT|BatchMode=5|FormWidth=2350|FormHeight=1605|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
+Configuration5_Name4=GroupOrder
+Configuration5_Item4=Comment=True|Footprint=True
+Configuration5_Name5=OutputConfigurationParameter1
+Configuration5_Item5=escription=66|Designator=92|Digikey Link=92|Digikey P/N=61|Digi-Key Part Number=42|DNP=42|Footprint=42|LibRef=42|Quantity=42|Manufacturer=42|Manufacturer P/N=40
+Configuration5_Name6=SortOrder
+Configuration5_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration5_Name7=VisibleOrder
+Configuration5_Item7=Comment=40|Description=40|Designator=40|Footprint=40|LibRef=40|Quantity=40
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
@@ -195,7 +221,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=
+OutputFilePath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for lv_io_project
 OutputPathMedia3=
@@ -203,13 +229,13 @@ OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
-OutputFileName3=
+OutputFileName3=lv_io_project.PDF
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=1
 PromptOverwrite3=1
-PublishMethod3=5
+PublishMethod3=0
 ZoomLevel3=50
 FitSCHPrintSizeToDoc3=1
 FitPCBPrintSizeToDoc3=1
@@ -217,54 +243,38 @@ GenerateNetsInfo3=1
 MarkPins3=1
 MarkNetLabels3=1
 MarkPortsId3=1
-MediaFormat3=Windows Media file (*.wmv,*.wma,*.asf)
-FixedDimensions3=1
-Width3=352
-Height3=288
-MultiFile3=0
-FramesPerSecond3=25
-FramesPerSecondDenom3=1
-AviPixelFormat3=7
-AviCompression3=MP42 MS-MPEG4 V2
-AviQuality3=100
-FFmpegVideoCodecId3=13
-FFmpegPixelFormat3=0
-FFmpegQuality3=80
-WmvVideoCodecName3=Windows Media Video V7
-WmvQuality3=80
-OutputFilePath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
-ReleaseManaged4=1
-OutputBasePath4=Project Outputs for lv_io_project
+GenerateTOC3=1
+ShowComponentParameters3=1
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
+ReleaseManaged4=0
+OutputBasePath4=pdf\BOM\
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
-OutputFileName4=lv_io_project.PDF
-OutputFileNameMulti4=
-UseOutputNameForMulti4=1
+OutputFileName4=
+OutputFileNameMulti4=lv_io_BOM
+UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1
-PromptOverwrite4=1
-PublishMethod4=0
-ZoomLevel4=50
-FitSCHPrintSizeToDoc4=1
-FitPCBPrintSizeToDoc4=1
-GenerateNetsInfo4=1
-MarkPins4=1
-MarkNetLabels4=1
-MarkPortsId4=1
-GenerateTOC4=1
-ShowComponentParameters4=1
-GlobalBookmarks4=0
-PDFACompliance4=Disabled
-PDFVersion4=Default
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
 OpenOutputs2=1
-RelativeOutputPath3=
+RelativeOutputPath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
+RelativeOutputPath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
 OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
 
