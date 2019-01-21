@@ -8,3 +8,5 @@ ProjectPath=prj\precharge_project.PrjPCB
 ProjectPath=prj\lv_io_project.PrjPCB
 [Project4]
 ProjectPath=prj\power_project.PrjPCB
+[Project5]
+ProjectPath=prj\IdealDiodeOR.PrjPCB
