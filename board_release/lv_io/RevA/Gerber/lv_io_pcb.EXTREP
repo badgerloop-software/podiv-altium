@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: lv_io_pcb.GBR   1/21/2019  9:18:03 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GP1                GND                                     
+.GP2                PWR                                     
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Mechanical 2                            
+.GM3                Mechanical 3                            
+.GM13               Mechanical 13                           
+.GM15               Board Outline                           
+.GM16               Designer Notes                          
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.1                  Dielectric 1                            
+.3                  Dielectric 2                            
+.2                  Dielectric 3                            
+.GML                Multi-Layer                             
+------------------------------------------------------------------------------------------

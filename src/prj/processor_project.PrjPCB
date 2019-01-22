@@ -392,10 +392,6 @@ DItemRevisionGUID=
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument26]
-DocumentPath=..\..\board_release\processor\REVA\Gerbers\NC Drill\processor_pcb.TXT
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Designer
 Value=R. Castle

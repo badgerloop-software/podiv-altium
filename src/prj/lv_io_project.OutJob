@@ -14,16 +14,10 @@ FolderGUID=
 LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
-<<<<<<< HEAD
-[PublishSettings]
-OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\.PDF
-ReleaseManaged2=0
-OutputBasePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\
-=======
 [OutputGroup1]
 Name=lv_io_project.OutJob
 Description=
-TargetOutputMedium=New Folder Structure
+TargetOutputMedium=Gerbers
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -39,6 +33,10 @@ OutputMedium3=BOM
 OutputMedium3_Type=Publish
 OutputMedium4=New Folder Structure
 OutputMedium4_Type=GeneratedFiles
+OutputMedium5=Step
+OutputMedium5_Type=GeneratedFiles
+OutputMedium6=Gerbers
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
@@ -49,6 +47,8 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
@@ -63,6 +63,8 @@ OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.98|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
@@ -138,6 +140,8 @@ OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=3
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.42|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
@@ -147,11 +151,13 @@ OutputName4=Bill of Materials
 OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=1
 OutputEnabled4_OutputMedium4=1
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=ColumnNameFormat
@@ -182,6 +188,8 @@ OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration5_Name1=ColumnNameFormat
@@ -198,18 +206,47 @@ Configuration5_Name6=SortOrder
 Configuration5_Item6=Designator=Up|Comment=Up|Footprint=Up
 Configuration5_Name7=VisibleOrder
 Configuration5_Item7=Comment=40|Description=40|Designator=40|Footprint=40|LibRef=40|Quantity=40
+OutputType6=Gerber
+OutputName6=Gerber Files
+OutputCategory6=Fabrication
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=1
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=1
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="All Layers","Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908303~1,16973837~1,16973848~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType7=NC Drill
+OutputName7=NC Drill Files
+OutputCategory7=Fabrication
+OutputDocumentPath7=
+OutputVariantName7=
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=2
+OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 
 [PublishSettings]
-OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
+OutputFilePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputBasePath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=lv_io_project.pdf
+OutputFileName2=lv_io_project.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -217,8 +254,8 @@ OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
-FitSCHPrintSizeToDoc2=0
-FitPCBPrintSizeToDoc2=0
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
 GenerateNetsInfo2=1
 MarkPins2=1
 MarkNetLabels2=1
@@ -228,34 +265,19 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-<<<<<<< HEAD
-OutputFilePath3=
-ReleaseManaged3=1
-OutputBasePath3=
-=======
-OutputFilePath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
-ReleaseManaged3=1
+OutputFilePath3=C:\git\fifth\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
+ReleaseManaged3=0
 OutputBasePath3=Project Outputs for lv_io_project
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
-<<<<<<< HEAD
-OutputFileName3=
-=======
 OutputFileName3=lv_io_project.PDF
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=1
-<<<<<<< HEAD
-OutputFilePath4=
-ReleaseManaged4=1
-OutputBasePath4=
-=======
 PromptOverwrite3=1
 PublishMethod3=0
 ZoomLevel3=50
@@ -270,126 +292,52 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
+OutputFilePath4=C:\git\fifth\podiv-altium\src\prj\Project Outputs for lv_io_project\
 ReleaseManaged4=0
-OutputBasePath4=pdf\BOM\
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+OutputBasePath4=Project Outputs for lv_io_project
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
 OutputFileName4=
-<<<<<<< HEAD
 OutputFileNameMulti4=
 UseOutputNameForMulti4=1
 OutputFileNameSpecial4=
 OpenOutput4=1
-PromptOverwrite4=1
-PublishMethod4=5
-ZoomLevel4=50
-FitSCHPrintSizeToDoc4=1
-FitPCBPrintSizeToDoc4=1
-GenerateNetsInfo4=1
-MarkPins4=1
-MarkNetLabels4=1
-MarkPortsId4=1
-MediaFormat4=Windows Media file (*.wmv,*.wma,*.asf)
-FixedDimensions4=1
-Width4=352
-Height4=288
-MultiFile4=0
-FramesPerSecond4=25
-FramesPerSecondDenom4=1
-AviPixelFormat4=7
-AviCompression4=MP42 MS-MPEG4 V2
-AviQuality4=100
-FFmpegVideoCodecId4=13
-FFmpegPixelFormat4=0
-FFmpegQuality4=80
-WmvVideoCodecName4=Windows Media Video V7
-WmvQuality4=80
+OutputFilePath5=C:\git\fifth\podiv-altium\src\prj\pcb\STP\
+ReleaseManaged5=0
+OutputBasePath5=pcb\STP\
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5=
+UseOutputNameForMulti5=1
+OutputFileNameSpecial5=
+OpenOutput5=1
+OutputFilePath6=C:\git\fifth\podiv-altium\board_release\lv_io\
+ReleaseManaged6=0
+OutputBasePath6=..\..\board_release\lv_io\
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=[Output Type]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6=
+UseOutputNameForMulti6=1
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\.PDF
 OpenOutputs2=1
-RelativeOutputPath3=
+RelativeOutputPath3=C:\git\fifth\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
 OpenOutputs3=1
-AddToProject3=1
-TimestampFolder3=0
-UseOutputName3=0
-OpenODBOutput3=0
-OpenGerberOutput3=0
-OpenNCDrillOutput3=0
-OpenIPCOutput3=0
-EnableReload3=0
-RelativeOutputPath4=
-OpenOutputs4=1
-
-[OutputGroup1]
-Name=
-Description=
-TargetOutputMedium=PDF
-VariantName=[No Variations]
-VariantScope=0
-CurrentConfigurationName=
-TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium1=Print Job
-OutputMedium1_Type=Printer
-OutputMedium1_Printer=
-OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=PDF
-OutputMedium2_Type=Publish
-OutputMedium3=Folder Structure
-OutputMedium3_Type=GeneratedFiles
-OutputMedium4=Video
-OutputMedium4_Type=Multimedia
-OutputType1=Schematic Print
-OutputName1=Schematic Prints
-OutputCategory1=Documentation
-OutputDocumentPath1=
-OutputVariantName1=
-OutputEnabled1=1
-OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=1
-OutputEnabled1_OutputMedium3=0
-OutputEnabled1_OutputMedium4=0
-OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType2=PCB Print
-OutputName2=PCB Prints
-OutputCategory2=Documentation
-OutputDocumentPath2=lv_io_pcb.PcbDoc
-OutputVariantName2=
-OutputEnabled2=1
-OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=2
-OutputEnabled2_OutputMedium3=0
-OutputEnabled2_OutputMedium4=0
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.81|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
-Configuration2_Name2=OutputConfigurationParameter2
-Configuration2_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration2_Name3=OutputConfigurationParameter3
-Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-PcbPrintPreferences2=
-=======
-OutputFileNameMulti4=lv_io_BOM
-UseOutputNameForMulti4=0
-OutputFileNameSpecial4=
-OpenOutput4=1
-
-[GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\lv_io_project.pdf
-OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\Project Outputs for lv_io_project\.PDF
-OpenOutputs3=1
-RelativeOutputPath4=C:\Users\Ryan Castle\Documents\git_repos\podiv-altium\src\prj\pdf\BOM\
+RelativeOutputPath4=C:\git\fifth\podiv-altium\src\prj\Project Outputs for lv_io_project\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
@@ -399,5 +347,24 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
->>>>>>> 79803846d7fef196b45f3e62c09ea7819d519ab2
+RelativeOutputPath5=C:\git\fifth\podiv-altium\src\prj\pcb\STP\
+OpenOutputs5=1
+AddToProject5=1
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+RelativeOutputPath6=C:\git\fifth\podiv-altium\board_release\lv_io\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
