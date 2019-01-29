@@ -2,61 +2,28 @@
 FileName = hv_breakout_Gerbers.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 16
-      File : hv_breakout_Gerbers.GM16
+Generating : Mechanical 13
+      File : hv_breakout_Gerbers.GM13
 
-    Adding Layer      : Mechanical 16
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : hv_breakout_Gerbers.GTO
+
+    Adding Layer      : Top Overlay
 
     Adding Layer      : Mechanical 1
 
 
 Used DCodes :
     D10
-    D22
-    D23
-    D24
-    D25
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : hv_breakout_Gerbers.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D16
-    D17
-    D18
-    D19
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : hv_breakout_Gerbers.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
 *************************************************************
 
 *************************************************************
@@ -77,141 +44,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 15
-      File : hv_breakout_Gerbers.GM15
-
-    Adding Layer      : Mechanical 15
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : hv_breakout_Gerbers.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : hv_breakout_Gerbers.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 1
-      File : hv_breakout_Gerbers.1
-
-    Adding Layer      : Dielectric 1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 3
-      File : hv_breakout_Gerbers.GM3
-
-    Adding Layer      : Mechanical 3
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
 Generating : Mechanical 1
       File : hv_breakout_Gerbers.GM1
 
     Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : hv_breakout_Gerbers.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : hv_breakout_Gerbers.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : hv_breakout_Gerbers.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : hv_breakout_Gerbers.GM13
-
-    Adding Layer      : Mechanical 13
 
     Adding Layer      : Mechanical 1
 
@@ -239,10 +75,54 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : hv_breakout_Gerbers.GTO
+Generating : Keep-Out Layer
+      File : hv_breakout_Gerbers.GKO
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : hv_breakout_Gerbers.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : hv_breakout_Gerbers.1
+
+    Adding Layer      : Dielectric 1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : hv_breakout_Gerbers.GM15
+
+    Adding Layer      : Mechanical 15
 
     Adding Layer      : Mechanical 1
 
@@ -252,36 +132,36 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Drill Drawing
-      File : hv_breakout_Gerbers.GD1
+Generating : Top Paste
+      File : hv_breakout_Gerbers.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Mechanical 1
 
-    Adding Drill Pair : Top Layer-Bottom Layer
+    Adding Layer      : Top Layer
 
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 16
+      File : hv_breakout_Gerbers.GM16
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
     D10
+    D22
     D23
-    D26
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : hv_breakout_Gerbers.GG1
-
-    Adding Layer      : Mechanical 1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D26
+    D24
+    D25
 *************************************************************
 
 *************************************************************
@@ -318,5 +198,126 @@ Used DCodes :
     D18
     D19
     D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : hv_breakout_Gerbers.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : hv_breakout_Gerbers.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : hv_breakout_Gerbers.GM3
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : hv_breakout_Gerbers.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : hv_breakout_Gerbers.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : hv_breakout_Gerbers.GD1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D23
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : hv_breakout_Gerbers.GG1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D26
 *************************************************************
 
