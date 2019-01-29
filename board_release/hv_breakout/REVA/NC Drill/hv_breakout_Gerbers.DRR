@@ -1,16 +1,17 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: idealdiodeOR.PcbDoc   1/29/2019  5:07:45 PM
+NCDrill File Report For: hv_breakout.PcbDoc   1/29/2019  5:13:55 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : ideadiodeOR_Gerbers.TXT
+ASCII RoundHoles File : hv_breakout_Gerbers.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      28mil (0.711mm)                                           Round             24        PTH        0.00inch (0.00mm)
+T1      33mil (0.838mm)                                           Round             16        PTH        0.00inch (0.00mm)
 T2      39mil (1mm)                                               Round             8         PTH        0.00inch (0.00mm)
-T3      59mil (1.5mm)                                             Round             19        PTH        0.00inch (0.00mm)
-T4      116mil (2.946mm)                                          Round             4         NPTH       0.00inch (0.00mm)
+T3      43mil (1.09mm)                                            Round             25        PTH        0.00inch (0.00mm)
+T4      116mil (2.946mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T5      128mil (3.26mm)                                           Round             2         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              55
 

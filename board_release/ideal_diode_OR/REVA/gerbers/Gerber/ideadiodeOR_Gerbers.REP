@@ -2,10 +2,10 @@
 FileName = ideadiodeOR_Gerbers.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : ideadiodeOR_Gerbers.GTO
+Generating : Mechanical 13
+      File : ideadiodeOR_Gerbers.GM13
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 13
 
     Adding Layer      : Mechanical 1
 
@@ -14,82 +14,40 @@ Generating : Top Overlay
 
 Used DCodes :
     D10
-    D11
-    D12
-    D13
+    D41
+    D42
+    D43
+    D44
 *************************************************************
 
 *************************************************************
-Generating : Dielectric 1
-      File : ideadiodeOR_Gerbers.1
+Generating : Bottom Solder
+      File : ideadiodeOR_Gerbers.GBS
 
-    Adding Layer      : Dielectric 1
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Mechanical 1
 
     Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : ideadiodeOR_Gerbers.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D37
-    D38
-    D39
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : ideadiodeOR_Gerbers.GBL
 
     Adding Layer      : Bottom Layer
 
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D36
-    D37
-    D38
-    D39
-    D40
+    D10
+    D32
+    D33
+    D34
+    D35
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 3
-      File : ideadiodeOR_Gerbers.GM3
+Generating : Bottom Overlay
+      File : ideadiodeOR_Gerbers.GBO
 
-    Adding Layer      : Mechanical 3
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : Mechanical 1
 
@@ -97,7 +55,25 @@ Generating : Mechanical 3
 
 
 Used DCodes :
-    D12
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : ideadiodeOR_Gerbers.GML
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+    D37
+    D38
+    D39
 *************************************************************
 
 *************************************************************
@@ -114,7 +90,7 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D12
+    D10
     D14
     D15
     D16
@@ -132,25 +108,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : ideadiodeOR_Gerbers.GBO
+Generating : Dielectric 1
+      File : ideadiodeOR_Gerbers.1
 
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : ideadiodeOR_Gerbers.GM1
-
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Dielectric 1
 
     Adding Layer      : Mechanical 1
 
@@ -158,7 +119,100 @@ Generating : Mechanical 1
 
 
 Used DCodes :
-    D12
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : ideadiodeOR_Gerbers.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : ideadiodeOR_Gerbers.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : ideadiodeOR_Gerbers.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : BoardOutline
+      File : ideadiodeOR_Gerbers.GM15
+
+    Adding Layer      : BoardOutline
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+    D41
+    D45
 *************************************************************
 
 *************************************************************
@@ -175,7 +229,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D12
+    D10
     D48
     D49
     D50
@@ -195,43 +249,15 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D12
-    D49
+    D10
+    D48
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : ideadiodeOR_Gerbers.GTP
-
-    Adding Layer      : Top Paste
+Generating : Mechanical 1
+      File : ideadiodeOR_Gerbers.GM1
 
     Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : ideadiodeOR_Gerbers.GKO
-
-    Adding Layer      : Keep-Out Layer
 
     Adding Layer      : Mechanical 1
 
@@ -239,43 +265,7 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : ideadiodeOR_Gerbers.GM13
-
-    Adding Layer      : Mechanical 13
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-    D41
-    D42
-    D43
-    D44
-*************************************************************
-
-*************************************************************
-Generating : DesignerNotes
-      File : ideadiodeOR_Gerbers.GM16
-
-    Adding Layer      : DesignerNotes
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-    D46
-    D47
+    D10
 *************************************************************
 
 *************************************************************
@@ -294,7 +284,107 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : ideadiodeOR_Gerbers.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ideadiodeOR_Gerbers.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : ideadiodeOR_Gerbers.GM3
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : DesignerNotes
+      File : ideadiodeOR_Gerbers.GM16
+
+    Adding Layer      : DesignerNotes
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : ideadiodeOR_Gerbers.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D10
+    D11
     D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -311,99 +401,9 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D12
+    D10
     D37
     D38
     D39
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : ideadiodeOR_Gerbers.GML
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-    D37
-    D38
-    D39
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : ideadiodeOR_Gerbers.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-*************************************************************
-
-*************************************************************
-Generating : BoardOutline
-      File : ideadiodeOR_Gerbers.GM15
-
-    Adding Layer      : BoardOutline
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-
-Used DCodes :
-    D12
-    D41
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : ideadiodeOR_Gerbers.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 3
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D32
-    D33
-    D34
-    D35
 *************************************************************
 

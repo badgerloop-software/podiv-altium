@@ -1,5 +1,5 @@
 G04*
-G04 #@! TF.GenerationSoftware,Altium Limited,Altium Designer,19.0.10 (269)*
+G04 #@! TF.GenerationSoftware,Altium Limited,Altium Designer,18.1.9 (240)*
 G04*
 G04 Layer_Physical_Order=2*
 G04 Layer_Color=32768*
@@ -10,24 +10,24 @@ G01*
 G75*
 %ADD78C,0.05000*%
 %ADD79C,0.04000*%
-%ADD80C,0.07937*%
-G04:AMPARAMS|DCode=81|XSize=99.37mil|YSize=99.37mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
-%AMTHD81*
+%ADD80C,0.15600*%
+%ADD81C,0.07937*%
+G04:AMPARAMS|DCode=82|XSize=99.37mil|YSize=99.37mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
+%AMTHD82*
 7,0,0,0.09937,0.07937,0.01000,45*
 %
-%ADD81THD81*%
-G04:AMPARAMS|DCode=82|XSize=188.346mil|YSize=188.346mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
-%AMTHD82*
+%ADD82THD82*%
+G04:AMPARAMS|DCode=83|XSize=188.346mil|YSize=188.346mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
+%AMTHD83*
 7,0,0,0.18835,0.16835,0.01000,45*
 %
-%ADD82THD82*%
-%ADD83C,0.08291*%
-G04:AMPARAMS|DCode=84|XSize=102.913mil|YSize=102.913mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
-%AMTHD84*
+%ADD83THD83*%
+%ADD84C,0.08291*%
+G04:AMPARAMS|DCode=85|XSize=102.913mil|YSize=102.913mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
+%AMTHD85*
 7,0,0,0.10291,0.08291,0.01000,45*
 %
-%ADD84THD84*%
-%ADD85C,0.14236*%
+%ADD85THD85*%
 G04:AMPARAMS|DCode=86|XSize=138.74mil|YSize=138.74mil|CornerRadius=0mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=Relief|Width=10mil|Gap=10mil|Entries=4|*
 %AMTHD86*
 7,0,0,0.13874,0.11874,0.01000,45*
@@ -319,6 +319,19 @@ X82249Y178760D01*
 X82249Y178750D02*
 Y178754D01*
 D80*
+X626750Y375750D02*
+D03*
+X164250Y218750D02*
+D03*
+X95250Y468750D02*
+D03*
+X693250Y238750D02*
+D03*
+X397750D02*
+D03*
+X465250Y425750D02*
+D03*
+D81*
 X439250Y267514D02*
 D03*
 X449250D02*
@@ -371,7 +384,7 @@ Y307750D02*
 D03*
 Y317750D02*
 D03*
-D81*
+D82*
 X459250Y267514D02*
 D03*
 X440750Y343750D02*
@@ -384,7 +397,7 @@ Y377750D02*
 D03*
 Y277750D02*
 D03*
-D82*
+D83*
 X679593Y455841D02*
 D03*
 X494348D02*
@@ -405,7 +418,7 @@ X466443Y455659D02*
 D03*
 X368057D02*
 D03*
-D83*
+D84*
 X521750Y450250D02*
 D03*
 X527185Y461431D02*
@@ -586,7 +599,7 @@ X411797Y461250D02*
 D03*
 X417250Y450069D02*
 D03*
-D84*
+D85*
 X586970Y450250D02*
 D03*
 X592406Y461431D02*
@@ -624,19 +637,6 @@ D03*
 X433608Y461250D02*
 D03*
 X439061Y450069D02*
-D03*
-D85*
-X465250Y425750D02*
-D03*
-X397750Y238750D02*
-D03*
-X693250D02*
-D03*
-X95250Y468750D02*
-D03*
-X164250Y218750D02*
-D03*
-X626750Y375750D02*
 D03*
 D86*
 X651266Y267514D02*
