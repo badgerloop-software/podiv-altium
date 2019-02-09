@@ -3,12 +3,10 @@ Version=1.0
 [Project1]
 ProjectPath=prj\processor_project.PrjPCB
 [Project2]
-ProjectPath=prj\precharge_project.PrjPCB
-[Project3]
 ProjectPath=prj\lv_io_project.PrjPCB
-[Project4]
+[Project3]
 ProjectPath=prj\power_project.PrjPCB
-[Project5]
+[Project4]
 ProjectPath=prj\IdealDiodeOR.PrjPCB
-[Project6]
+[Project5]
 ProjectPath=prj\hv_breakout_board_project.PrjPCB
