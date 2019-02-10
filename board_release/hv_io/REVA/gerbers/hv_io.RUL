@@ -87,7 +87,6 @@ RuleKind=Clearance|RuleName=Schematic Clearance Constraint_9|Scope=Board|Minimum
 RuleKind=Clearance|RuleName=Schematic Clearance Constraint_8|Scope=Board|Minimum=30.00
 RuleKind=Clearance|RuleName=Schematic Clearance Constraint_7|Scope=Board|Minimum=30.00
 RuleKind=Clearance|RuleName=Schematic Clearance Constraint_6|Scope=Board|Minimum=30.00
-RuleKind=Clearance|RuleName=Schematic Clearance Constraint_5|Scope=Board|Minimum=30.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00

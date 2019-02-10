@@ -242,23 +242,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HNPOKMUS
 
 [Document13]
-DocumentPath=..\lib\temp.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AOLAAMLV
-
-[Document14]
 DocumentPath=sch\hv_io_bms.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TLSLWOQT
 
-[Document15]
+[Document14]
 DocumentPath=sch\hv_io_shutdown.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKOLRXMX
 
-[Document16]
+[Document15]
 DocumentPath=sch\hv_io_DCDC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JILVYGOD
 
-[Document17]
+[Document16]
 DocumentPath=sch\hv_io_precharge.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,24 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CLHVRVFI
 
-[Document18]
-DocumentPath=..\lib\temp.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YBBOQDSB
-
-[Document19]
+[Document17]
 DocumentPath=pcb\hv_io.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -358,9 +324,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WOPFGTOI
+DocumentUniqueId=KHRPWQOS
 
-[Document20]
+[Document18]
 DocumentPath=hv_io_project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -379,10 +345,6 @@ DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for hv_io\Design Rule Check - hv_io.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=pcb\STP\ExportSTEP\hv_io.step
 DItemRevisionGUID=
 
 [Parameter1]

@@ -324,7 +324,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WOPFGTOI
+DocumentUniqueId=KHRPWQOS
 
 [Document18]
 DocumentPath=hv_io_project.OutJob
@@ -342,6 +342,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for hv_io\Design Rule Check - hv_io.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Designer
