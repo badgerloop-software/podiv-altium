@@ -343,10 +343,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for hv_io\Design Rule Check - hv_io.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Designer
 Value=R. Castle
