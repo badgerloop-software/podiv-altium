@@ -10,3 +10,5 @@ ProjectPath=prj\IdealDiodeOR.PrjPCB
 ProjectPath=prj\hv_breakout_board_project.PrjPCB
 [Project5]
 ProjectPath=prj\hv_io.PrjPCB
+[Project6]
+ProjectPath=..\board_release\lv_io\RevA\project_zip\LV_IO_Project\lv_io_project.PrjPCB
