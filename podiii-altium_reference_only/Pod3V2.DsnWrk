@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Pod3V2.PrjMbd
+[Project2]
+ProjectPath=pressure_vessel\Pressure_Vessel.PrjPCB
+[Project3]
+ProjectPath=navigation\Navigation.PrjPCB
+[Project4]
+ProjectPath=ccp\Communication_Control_Power.PrjPCB
+[Project5]
+ProjectPath=..\..\..\..\..\Public\Documents\Altium\HV_Indicator.PrjPCB
