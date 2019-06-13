@@ -293,106 +293,102 @@ GenerateClassCluster=0
 DocumentUniqueId=RXCKGCJR
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for processor_project\Design Rule Check - processor_pcb.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.1
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\NC Drill\processor_pcb.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM3
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GM16
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GML
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument22]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument23]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\NC Drill\processor_pcb.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.REP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=..\..\board_release\processor\REVA\Gerbers\Gerber\processor_pcb.RUL
 DItemRevisionGUID=
 
@@ -1044,6 +1040,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
