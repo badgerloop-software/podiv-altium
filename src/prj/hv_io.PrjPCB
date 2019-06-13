@@ -344,20 +344,20 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Designer
-Value=R. Castle
+Name=Revision
+Value=REV B
 
 [Parameter2]
-Name=Engineer
-Value=R. Castle
-
-[Parameter3]
 Name=Part_Number
 Value=P4_EL_HV_002_HV_IO
 
+[Parameter3]
+Name=Engineer
+Value=R. Castle
+
 [Parameter4]
-Name=Revision
-Value=REV A
+Name=Designer
+Value=R. Castle
 
 [Configuration1]
 Name=Sources
@@ -991,6 +991,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
